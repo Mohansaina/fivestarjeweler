@@ -53,8 +53,15 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/images/logo.jpg",
-    apple: "/images/logo.jpg",
+    icon: [
+      { url: "/icon.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/images/logo.jpg", sizes: "1024x1024" },
+    ],
+    apple: [
+      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+      { url: "/images/logo.jpg", sizes: "1024x1024" },
+    ],
   },
   openGraph: {
     title: "FIVESTAR JEWELER | Custom Jewelry & Diamond Specialist • NYC 47th St",
